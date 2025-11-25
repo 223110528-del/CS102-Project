@@ -65,7 +65,7 @@ public class Librarysystem {
         String author = scanner.nextLine();
         System.out.print("Enter year: ");
         int year = scanner.nextInt();
-        scanner.nextLine();  // consume newline
+        scanner.nextLine(); 
 
         Book book = new Book(title, author, year);
         library.addBook(book);
